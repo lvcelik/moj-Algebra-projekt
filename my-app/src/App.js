@@ -2,6 +2,7 @@ import './App.css';
 import React, { Component } from 'react';
 import Messages from './components/Messages';
 import Input from './components/Input';
+import Sidebar from './components/Sidebar';
 
 
 class App extends Component {
@@ -59,12 +60,20 @@ onSendMessage = (message) => {
   });
 }
 
+toggleSidebar = () =>{
+  this.sidebar.ToggleSidebar();
+}
+
   render() {
     return (
       <div className="App">
       <div className="App-header">
+        <button className='sidebar-btn' onClick={this.toggleSidebar}>Sidebar</button>
         <h1>Algebra Seminarski Rad</h1> 
+        {/* Prazan div služi za flex pozicioniranje elemenata */}
+        <div></div>
       </div>
+      <Sidebar ref={(reference) => this.sidebar = reference}/>
       <Messages
         messages={this.state.messages}
         currentMember={this.state.member}
