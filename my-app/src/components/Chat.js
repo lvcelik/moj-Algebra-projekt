@@ -64,7 +64,7 @@ onSendMessage = (message) => {
 
   render() {
     return (
-      <div className="App">
+      <div className='Chat'>
       
       
       <Messages

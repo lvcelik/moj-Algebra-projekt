@@ -1,5 +1,6 @@
 import React from "react";
 import { Navigate, Route, Routes } from "react-router-dom";
+import About from "./components/About";
 import Chat from "./components/Chat";
 import Header from "./components/Header";
 import Login from "./components/Login";
@@ -19,14 +20,20 @@ class App extends React.Component{
     this.sidebar.ToggleSidebar();
   }
 
+  handleLogout = () =>{
+    this.setState({username: ""});
+  }
+
+
   render(){
     return (
-      <div> 
-      <Header toggleSidebar={this.toggleSidebar} username={this.state.username}/>
+      <div className="App"> 
+      <Header toggleSidebar={this.toggleSidebar} username={this.state.username} handleLogout={this.handleLogout}/>
       <Sidebar ref={(reference) => this.sidebar = reference}/>
       <Routes>
       <Route path="/" element={ this.state.username ?  <Chat username={this.state.username}/> : <Navigate to="/login" />} />
       <Route path="/login" element={<Login onLogin={this.handleLogin}/>} />
+      <Route path="/about" element={this.state.username ? <About /> : <Navigate to="/login" />} />
     </Routes>
     </div>
     );
