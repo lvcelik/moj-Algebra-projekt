@@ -1,8 +1,8 @@
-.App {
+.Chat {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100vh;
+    height: 90vh;
   }
   
   .App-header {
@@ -96,4 +96,9 @@
     color: white;
     border: none;
 
+  }
+  .btn-send{
+    border-radius: 8px;
+    margin-left: 10px;
+    
   }
