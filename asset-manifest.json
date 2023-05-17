@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.026e1efd.css",
-    "main.js": "/static/js/main.9bacb8a2.js",
-    "index.html": "/index.html",
-    "main.026e1efd.css.map": "/static/css/main.026e1efd.css.map",
-    "main.9bacb8a2.js.map": "/static/js/main.9bacb8a2.js.map"
+    "main.css": "/moj-Algebra-projekt/static/css/main.026e1efd.css",
+    "main.js": "/moj-Algebra-projekt/static/js/main.9bacb8a2.js",
+    "index.html": "/moj-Algebra-projekt/index.html",
+    "main.026e1efd.css.map": "/moj-Algebra-projekt/static/css/main.026e1efd.css.map",
+    "main.9bacb8a2.js.map": "/moj-Algebra-projekt/static/js/main.9bacb8a2.js.map"
   },
   "entrypoints": [
     "static/css/main.026e1efd.css",
