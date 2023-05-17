@@ -18,7 +18,7 @@ class Messages extends Component {
         const className = messageFromMe ?
             "Messages-message currentMember" : "Messages-message";
         return (
-            <li className={className}>
+            <li className={className} key={text + "_" + new Date().getTime().toString()}>
                 <span
                     className="avatar"
                     style={{ backgroundColor: member.clientData.color }}
