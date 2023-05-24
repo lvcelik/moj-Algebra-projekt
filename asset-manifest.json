@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/moj-Algebra-projekt/static/css/main.026e1efd.css",
-    "main.js": "/moj-Algebra-projekt/static/js/main.9bacb8a2.js",
+    "main.css": "/moj-Algebra-projekt/static/css/main.68f71013.css",
+    "main.js": "/moj-Algebra-projekt/static/js/main.f8396a80.js",
     "index.html": "/moj-Algebra-projekt/index.html",
-    "main.026e1efd.css.map": "/moj-Algebra-projekt/static/css/main.026e1efd.css.map",
-    "main.9bacb8a2.js.map": "/moj-Algebra-projekt/static/js/main.9bacb8a2.js.map"
+    "main.68f71013.css.map": "/moj-Algebra-projekt/static/css/main.68f71013.css.map",
+    "main.f8396a80.js.map": "/moj-Algebra-projekt/static/js/main.f8396a80.js.map"
   },
   "entrypoints": [
-    "static/css/main.026e1efd.css",
-    "static/js/main.9bacb8a2.js"
+    "static/css/main.68f71013.css",
+    "static/js/main.f8396a80.js"
   ]
 }
