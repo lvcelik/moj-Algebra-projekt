@@ -1,16 +1,45 @@
+body{
+  background-image:url(https://res.cloudinary.com/practicaldev/image/fetch/s--BuPz-p40--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nphrgz8yfnjylrwfr0yl.png);
+}
 .login-form {
-    display: flex;
-    flex-direction: column;
-    background-color: lightgray;
-    border-radius: 20px;
-    margin-top: 2rem;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #f3f3f3;
+  border: 7px solid #262626;
+  border-radius: 5px;
+  margin-top: 10rem;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: auto;
+  border-radius: 30px;
   }
   .login-form > * {
     margin-top: 2rem;
   }
   .login-btn {
+    background-image: linear-gradient(to right, #32be8f, #38d39f, #32be8f);
     margin-bottom: 2rem;
     width: 6rem;
+    background-color: #262626;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 5px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+
+    
   }
+  .text{
+    border-color: #32be8f;
+  }
+
+  
