@@ -1,9 +1,24 @@
 @import url(https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css);
 
 .btn-primary {
-  border-color: orangered;
-  background-color: orangered;
+  background-color: grey;
   color: #fff;
+  width: 6rem;
+  background-color: #262626;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding: 5px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+
 }
 
 .navbar {
@@ -68,4 +83,7 @@
   border-radius: 4px;
   cursor: pointer;
   text-decoration: none;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
 }
